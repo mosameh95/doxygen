@@ -1,0 +1,70 @@
+Table of Contents
+
+Table of contents
+
+
+
+Namespace Index
+Namespace List
+Here is a list of all namespaces with brief descriptions:
+dox  	pagenum
+
+
+File Index
+File List
+Here is a list of all files with brief descriptions:
+dox.py  	pagenum
+
+
+Namespace Documentation
+dox Namespace Reference
+AAAAAAAAACAAAAAAAAACFunctions
+0)	def myfunction (arg1, arg2, kwarg='whatever.')
+
+Function Documentation
+def dox.myfunction (  arg1,   arg2,   kwarg = 'whatever.')
+AAAAAAAAADAAAAAAAAAD
+Args:
+    arg1:   A positional argument.
+    arg2:   Another positional argument.
+
+Kwargs:
+    kwarg:  A keyword argument.
+
+Returns:
+    A string holding the result.
+
+Raises:
+    ZeroDivisionError, AssertionError, & ValueError.
+
+Examples:
+    >>> myfunction(2, 3)
+    '5 - 0, whatever.'
+    >>> myfunction(5, 0, 'oops.')
+    Traceback (most recent call last):
+        ...
+    ZeroDivisionError: integer division or modulo by zero
+    >>> myfunction(4, 1, 'got it.')
+    '5 - 4, got it.'
+    >>> myfunction(23.5, 23, 'oh well.')
+    Traceback (most recent call last):
+        ...
+    AssertionError
+    >>> myfunction(5, 50, 'too big.')
+    Traceback (most recent call last):
+        ...
+    ValueError
+ 
+
+File Documentation
+dox.py File Reference
+AAAAAAAAAAAAAAAAAAAANamespaces
+0)	 dox
+Functions
+0)	def dox.myfunction (arg1, arg2, kwarg='whatever.')
+
+
+py_filter.bat.txt File Reference
+AAAAAAAAABAAAAAAAAAB
+Index
+INDEX
